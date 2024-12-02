@@ -8,7 +8,7 @@
 </head>
 
 <body>
-
+  4. 【数组中的第⼆⼤元素】编写⼀个函数，接收⼀个数组作为输⼊，并返回该数组中的第二⼤元素。如果不存在第⼆⼤元素，则返回 null 或 undefined 。
 </body>
 <script>
   // 4. 【数组中的第⼆⼤元素】编写⼀个函数，接收⼀个数组作为输⼊，并返回该数组中的第二⼤元
@@ -30,8 +30,11 @@
       return undefined
     }
   }
+  console.log("传入数组：[1, 2, 44, 56, 32, 1, 45, 100]");
   console.log(tow_max([1, 2, 44, 56, 32, 1, 45, 100]));//56
+  console.log("传入数组：[1, 1, 1, 1, 1, 1, 1, 1]");
   console.log(tow_max([1, 1, 1, 1, 1, 1, 1, 1]));//null
+  console.log("传入数组：[]");
   console.log(tow_max([]));//undefined
 </script>
 
