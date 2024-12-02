@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.fixed {
+  width: 100%;
+  height: 40px;
+  background-color: #2188b6;
+  padding: 0 20px;
+  line-height: 40px;
+  color: white;
+}
+.fixed span:first-child {
+  font-weight: 600;
+}
+/* 版心 */
+.w {
+  width: 1200px;
+}
+.nav {
+  display: flex;
+  height: 60px;
+  margin: 0 auto;
+}
+.nav_left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  /* background-color: red; */
+}
+li {
+  list-style: none;
+}
+.nav_left li a,
+.nav_right li a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  padding-left: 20px;
+}
+.nav_left li a:active,
+.nav_right li a:active {
+  color: black;
+}
+.nav_right {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 100%;
+  /* background-color: yellow; */
+  flex: 1;
+}
+.nav_right li a {
+  padding-left: 0;
+  padding-right: 20px;
+}
+.icon1 {
+  width: 30px;
+  height: 30px;
+  color: #666666;
+  transform: translateY(3px);
+}
+.midder {
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+  /* height: 400px; */
+  background-color: #2188b6;
+}
+.midder .w {
+  padding: 0 15px;
+}
+.midder h1 {
+  display: block;
+  font-size: 74px;
+  color: white;
+}
+.ul_li {
+  height: 63px;
+  display: flex;
+  margin-top: 30px;
+}
+.ul_li li {
+  width: 153px;
+  height: 62px;
+  background-color: #2188b6;
+  box-shadow: 0px 0px 5px 0px #111;
+  margin-right: 24px;
+}
+.ul_li li a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.midder_a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.midder .ul_li .midder_icon1 {
+  color: black;
+}
+.midder_a > span {
+  border-radius: 5px;
+  padding: 0px 2px 5px 2px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.midder_a > span:first-child {
+  transform: translateX(5px);
+}
+.midder_a > span > span {
+  font-size: 16px;
+  padding-top: 10px;
+  font-weight: 600;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border: 7px solid;
+  border-color: transparent white transparent transparent;
+}
+.wdb {
+  margin-top: 30px;
+  color: white;
+}
+.wdb span {
+  font-weight: 600;
+  text-decoration: underline;
+}
+.wdb p {
+  margin: 10px 0 20px 0;
+}
+.main {
+  /* height: 1000px; */
+  /* background-color: skyblue; */
+  margin: 0 auto;
+}
+.speed {
+  margin-top: 48px;
+  padding-bottom: 40px;
+  /* height: 316px; */
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #ccc;
+}
+.main .speed:last-child {
+  border: 0;
+}
+.speed_left {
+  flex: 4;
+  /* background-color: red; */
+}
+.speed_left h2 {
+  font-size: 35px;
+  font-weight: 400;
+  margin: 56px 0 16px 0;
+  color: #5a5a5a;
+}
+.speed_left p {
+  font-size: 24px;
+  color: #6d767d;
+  padding-right: 70px;
+}
+.speed_right {
+  flex: 2;
+  width: 750px;
+  /* background-color: yellow; */
+}
+.speed_right img {
+  width: 100%;
+  height: 100%;
+}
+.footer {
+  margin: 0 auto;
+  height: 130px;
+  margin-bottom: 40px;
+  background-color: #2188b6;
+}
+.footer .w {
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .w p {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+}
+.footer .w a{
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  box-shadow: 0 0 5px 0 black;
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.row{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+.row li{
+  display: inline-block;
+  padding: 0 15px;
+  margin-bottom: 48px;
+}
+.row li h3{
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 7px;
+  color: #5a5a5a;
+}
+.row li p{
+  font-size: 18px;
+  color: #5a5a5a;
+}
+.below{
+  height: 100px;
+  border-top: 1px solid #ccc;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.below ul{
+  display: flex;
+}
+.jiyu{
+  color: #117cad;
+}
+.underline{
+  text-decoration: underline;
+}
