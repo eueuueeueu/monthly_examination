@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+  // 4. 【数组中的第⼆⼤元素】编写⼀个函数，接收⼀个数组作为输⼊，并返回该数组中的第二⼤元
+  // 素。如果不存在第⼆⼤元素，则返回 null 或 undefined 。
+  function tow_max(arr) {
+    if (arr.length !== 0) {
+      let flag = true
+      arr.sort((a, b) => { return b - a })
+      for (let i = 0; i < arr.length - 1; i++) {
+        if (arr[i] > arr[i + 1]) {
+          flag = false
+          return arr[i + 1]
+        }
+      }
+      if (flag) {
+        return null
+      }
+    } else {
+      return undefined
+    }
+  }
+  console.log(tow_max([1, 2, 44, 56, 32, 1, 45, 100]));//56
+  console.log(tow_max([1, 1, 1, 1, 1, 1, 1, 1]));//null
+  console.log(tow_max([]));//undefined
+</script>
+
+</html>
