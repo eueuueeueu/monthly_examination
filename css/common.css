@@ -341,9 +341,23 @@
   body .midder h1 {
     font-size: 40px;
   }
+  .footer .w{
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .footer .w p{
+    font-size: 40px;
+  }
+  .footer .w a{
+    width: 80%;
+    margin-top: 10px;
+  }
 }
 @media screen and (max-width: 560px) {
   body .w {
     width: 100%;
+  }
+  .footer .w p{
+    font-size: 30px;
   }
 }
